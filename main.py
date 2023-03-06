@@ -1,5 +1,6 @@
 import openpyxl as pyxl
 import datetime
+from random import randint
 
 '''
 1. Criar função de contagem regressiva de dias;
@@ -40,40 +41,63 @@ def calcula_glicemia(x):
     if medicao > 200:
         return "14 UI"
 
-def preeche_planilha():
+def main():
     i = 6
     planilha = pyxl.load_workbook('Glicemia.xlsx')['Planilha1']
     for x, dia in enumerate(calcula_dias()):
         if x <= 14:
             print(f"==={dia}===")
-            glicemia_jejum = int(input("Glicemia em jejum: "))
-            glicemia_apos_almoco = int(input("Glicemia em 2H após o Almoço: "))
-            glicemia_antes_de_dormir = int(input("Glicemia antes de Dormir: "))
-            planilha[f'A{i}'] = dia
-            planilha[f'C{i}'] = glicemia_jejum 
-            planilha[f'E{i}'] = calcula_glicemia(glicemia_jejum)
-            planilha[f'G{i}'] = glicemia_apos_almoco 
-            planilha[f'H{i}'] = calcula_glicemia(glicemia_apos_almoco)
-            planilha[f'M{i}'] = glicemia_antes_de_dormir 
-            planilha[f'N{i}'] = calcula_glicemia(glicemia_antes_de_dormir)
+            preenche_valor(planilha, dia, i)
             i += 2
             planilha.parent.save(f'Primeiros_15dias.xlsx')
             continue
         i = 6 if x == 15 else i
         if x >= 15:
             print(f"==={dia}===")
-            glicemia_jejum = int(input("Glicemia em jejum: "))
-            glicemia_apos_almoco = int(input("Glicemia em 2H após o Almoço: "))
-            glicemia_antes_de_dormir = int(input("Glicemia antes de Dormir: "))
-            planilha[f'A{i}'] = dia
-            planilha[f'C{i}'] = glicemia_jejum 
-            planilha[f'E{i}'] = calcula_glicemia(glicemia_jejum)
-            planilha[f'G{i}'] = glicemia_apos_almoco 
-            planilha[f'H{i}'] = calcula_glicemia(glicemia_apos_almoco)
-            planilha[f'M{i}'] = glicemia_antes_de_dormir 
-            planilha[f'N{i}'] = calcula_glicemia(glicemia_antes_de_dormir)
+            preenche_valor(planilha, dia, i)
             i += 2
             planilha.parent.save(f'Últimos_15dias.xlsx')
 
+def preenche_valor(planilha, dia, i):
+    glicemia_jejum = ''
+    glicemia_apos_almoco = ''
+    glicemia_antes_de_dormir = ''
+
+    while type(glicemia_jejum) != int:
+        glicemia_jejum = input("Glicemia em jejum: ")
+        if glicemia_jejum.isdigit():
+            glicemia_jejum = int(glicemia_jejum)
+        elif glicemia_jejum == '':
+            glicemia_jejum = randint(60, 450)
+        else: 
+            print("VALOR INVÁLIDO")
+            continue    
+    while type(glicemia_apos_almoco) != int:
+        glicemia_apos_almoco = input("Glicemia em 2H após o Almoço: ")
+        if glicemia_apos_almoco.isdigit():
+            glicemia_apos_almoco = int(glicemia_apos_almoco)
+        elif glicemia_apos_almoco == '':
+            glicemia_apos_almoco = randint(60, 450)
+        else: 
+            print("VALOR INVÁLIDO")
+            continue    
+    while type(glicemia_antes_de_dormir) != int:
+        glicemia_antes_de_dormir = input("Glicemia antes de Dormir: ")
+        if glicemia_antes_de_dormir.isdigit():
+            glicemia_antes_de_dormir = int(glicemia_antes_de_dormir)
+        elif glicemia_antes_de_dormir == '':
+            glicemia_antes_de_dormir = randint(60, 450)
+        else: 
+            print("VALOR INVÁLIDO")
+            continue   
+
+    planilha[f'A{i}'] = dia
+    planilha[f'C{i}'] = glicemia_jejum
+    planilha[f'E{i}'] = calcula_glicemia(glicemia_jejum)
+    planilha[f'G{i}'] = glicemia_apos_almoco
+    planilha[f'H{i}'] = calcula_glicemia(glicemia_apos_almoco)
+    planilha[f'M{i}'] = glicemia_antes_de_dormir
+    planilha[f'N{i}'] = calcula_glicemia(glicemia_antes_de_dormir)
+
 if __name__ == "__main__":
-    preeche_planilha()
+    main()
