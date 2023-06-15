@@ -1,5 +1,5 @@
-(['D:\\Projetos\\MGC\\main.py'],
- ['D:\\Projetos\\MGC'],
+(['D:\\Programação\\MGC\\main.py'],
+ ['D:\\Programação\\MGC'],
  ['codecs'],
  ['C:\\Users\\Kaio Pablo '
   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\stdhooks',
@@ -10,7 +10,9 @@
   'C:\\Users\\Kaio Pablo '
   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks\\rthooks\\__pycache__',
   'C:\\Users\\Kaio Pablo '
-  'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks'],
+  'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\hooks',
+  'C:\\Users\\Kaio Pablo '
+  'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_pyinstaller'],
  {},
  [],
  [],
@@ -24,30 +26,46 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('main', 'D:\\Projetos\\MGC\\main.py', 'PYSOURCE')],
- [('inspect',
+  ('pyi_rth_pkgres',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\inspect.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('main', 'D:\\Programação\\MGC\\main.py', 'PYSOURCE')],
+ [('pkgutil',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pkgutil.py',
    'PYMODULE'),
-  ('importlib',
+  ('zipimport',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\__init__.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipimport.py',
    'PYMODULE'),
-  ('importlib._bootstrap_external',
+  ('importlib.readers',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap_external.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\readers.py',
    'PYMODULE'),
-  ('importlib.metadata',
+  ('importlib.resources.readers',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\__init__.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_itertools.py',
    'PYMODULE'),
   ('typing',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\typing.py',
    'PYMODULE'),
-  ('importlib.abc',
+  ('contextlib',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\abc.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py',
    'PYMODULE'),
   ('importlib.resources.abc',
    'C:\\Users\\Kaio Pablo '
@@ -81,6 +99,18 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tarfile.py',
    'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gettext.py',
+   'PYMODULE'),
   ('gzip',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gzip.py',
@@ -97,14 +127,6 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\struct.py',
    'PYMODULE'),
-  ('_strptime',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_strptime.py',
-   'PYMODULE'),
-  ('calendar',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\calendar.py',
-   'PYMODULE'),
   ('lzma',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\lzma.py',
@@ -113,13 +135,33 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bz2.py',
    'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
   ('importlib._abc',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_abc.py',
    'PYMODULE'),
-  ('contextlib',
+  ('importlib._bootstrap',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextlib.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap.py',
    'PYMODULE'),
   ('importlib.metadata._itertools',
    'C:\\Users\\Kaio Pablo '
@@ -193,10 +235,6 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\getopt.py',
    'PYMODULE'),
-  ('gettext',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\gettext.py',
-   'PYMODULE'),
   ('email.charset',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\charset.py',
@@ -229,6 +267,10 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\email\\_parseaddr.py',
    'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\calendar.py',
+   'PYMODULE'),
   ('socket',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socket.py',
@@ -240,30 +282,6 @@
   ('quopri',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\quopri.py',
-   'PYMODULE'),
-  ('textwrap',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\textwrap.py',
-   'PYMODULE'),
-  ('zipfile',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py',
-   'PYMODULE'),
-  ('py_compile',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\py_compile.py',
-   'PYMODULE'),
-  ('threading',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\threading.py',
-   'PYMODULE'),
-  ('_threading_local',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_threading_local.py',
-   'PYMODULE'),
-  ('importlib.util',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\util.py',
    'PYMODULE'),
   ('email',
    'C:\\Users\\Kaio Pablo '
@@ -281,29 +299,21 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\csv.py',
    'PYMODULE'),
-  ('importlib.readers',
+  ('threading',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\readers.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\threading.py',
    'PYMODULE'),
-  ('importlib.resources.readers',
+  ('_threading_local',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\readers.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_threading_local.py',
    'PYMODULE'),
-  ('importlib.resources._itertools',
+  ('_strptime',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\resources\\_itertools.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_strptime.py',
    'PYMODULE'),
-  ('importlib._bootstrap',
+  ('inspect',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\_bootstrap.py',
-   'PYMODULE'),
-  ('argparse',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\argparse.py',
-   'PYMODULE'),
-  ('importlib.machinery',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\machinery.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\inspect.py',
    'PYMODULE'),
   ('dis',
    'C:\\Users\\Kaio Pablo '
@@ -317,17 +327,129 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ast.py',
    'PYMODULE'),
-  ('stringprep',
+  ('importlib.machinery',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\machinery.py',
    'PYMODULE'),
-  ('_py_abc',
+  ('importlib.util',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\util.py',
    'PYMODULE'),
-  ('tracemalloc',
+  ('importlib',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\resource_tracker.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xmlrpc\\client.py',
+   'PYMODULE'),
+  ('xmlrpc',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xmlrpc\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('hmac',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\hmac.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py',
    'PYMODULE'),
   ('pickle',
    'C:\\Users\\Kaio Pablo '
@@ -345,13 +467,689 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_compat_pickle.py',
    'PYMODULE'),
-  ('subprocess',
+  ('multiprocessing.process',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\process.py',
    'PYMODULE'),
-  ('signal',
+  ('multiprocessing.context',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\signal.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\heap.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\dummy\\__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\dummy\\connection.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\queue.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\shared_memory.py',
+   'PYMODULE'),
+  ('secrets',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\secrets.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\spawn.py',
+   'PYMODULE'),
+  ('runpy',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\runpy.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\multiprocessing\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\__init__.py',
+   'PYMODULE'),
+  ('packaging.version',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\version.py',
+   'PYMODULE'),
+  ('packaging.utils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\utils.py',
+   'PYMODULE'),
+  ('packaging.tags',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\tags.py',
+   'PYMODULE'),
+  ('packaging.specifiers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('packaging.requirements',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('packaging.markers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\markers.py',
+   'PYMODULE'),
+  ('packaging._tokenizer',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\_tokenizer.py',
+   'PYMODULE'),
+  ('packaging._structures',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('packaging._parser',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\_parser.py',
+   'PYMODULE'),
+  ('packaging._musllinux',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('packaging._manylinux',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('packaging._elffile',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\_elffile.py',
+   'PYMODULE'),
+  ('packaging',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.zipp',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\zipp.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.util',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\util.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.unicode',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\unicode.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.testing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\testing.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.results',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\results.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.helpers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\helpers.py',
+   'PYMODULE'),
+  ('html.entities',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\html\\entities.py',
+   'PYMODULE'),
+  ('html',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\html\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.exceptions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\exceptions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.core',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\core.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.diagram',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\diagram\\__init__.py',
+   'PYMODULE'),
+  ('jinja2',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\__init__.py',
+   'PYMODULE'),
+  ('jinja2.ext',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\ext.py',
+   'PYMODULE'),
+  ('jinja2.parser',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\parser.py',
+   'PYMODULE'),
+  ('jinja2.lexer',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\lexer.py',
+   'PYMODULE'),
+  ('jinja2._identifier',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'PYMODULE'),
+  ('jinja2.defaults',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\defaults.py',
+   'PYMODULE'),
+  ('jinja2.tests',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\tests.py',
+   'PYMODULE'),
+  ('jinja2.filters',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\filters.py',
+   'PYMODULE'),
+  ('jinja2.sandbox',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'PYMODULE'),
+  ('jinja2.async_utils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'PYMODULE'),
+  ('markupsafe',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\markupsafe\\__init__.py',
+   'PYMODULE'),
+  ('markupsafe._native',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\markupsafe\\_native.py',
+   'PYMODULE'),
+  ('jinja2.utils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\utils.py',
+   'PYMODULE'),
+  ('jinja2.constants',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\constants.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('jinja2.runtime',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\runtime.py',
+   'PYMODULE'),
+  ('jinja2.loaders',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\loaders.py',
+   'PYMODULE'),
+  ('jinja2.exceptions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'PYMODULE'),
+  ('jinja2.environment',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\environment.py',
+   'PYMODULE'),
+  ('asyncio',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.unix_events',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\log.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\threads.py',
+   'PYMODULE'),
+  ('asyncio.timeouts',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\timeouts.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.subprocess',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\streams.py',
+   'PYMODULE'),
+  ('asyncio.queues',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\queues.py',
+   'PYMODULE'),
+  ('asyncio.runners',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\runners.py',
+   'PYMODULE'),
+  ('asyncio.base_events',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\thread.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\process.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\futures\\_base.py',
+   'PYMODULE'),
+  ('concurrent',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\concurrent\\__init__.py',
+   'PYMODULE'),
+  ('asyncio.trsock',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\trsock.py',
+   'PYMODULE'),
+  ('asyncio.staggered',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\staggered.py',
+   'PYMODULE'),
+  ('asyncio.tasks',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\locks.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.mixins',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\mixins.py',
+   'PYMODULE'),
+  ('asyncio.sslproto',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\sslproto.py',
+   'PYMODULE'),
+  ('asyncio.transports',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\protocols.py',
+   'PYMODULE'),
+  ('asyncio.futures',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\futures.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\base_futures.py',
+   'PYMODULE'),
+  ('asyncio.exceptions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\exceptions.py',
+   'PYMODULE'),
+  ('asyncio.events',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\events.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\coroutines.py',
+   'PYMODULE'),
+  ('asyncio.constants',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\asyncio\\constants.py',
+   'PYMODULE'),
+  ('jinja2.debug',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\debug.py',
+   'PYMODULE'),
+  ('jinja2.compiler',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\compiler.py',
+   'PYMODULE'),
+  ('jinja2.visitor',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\visitor.py',
+   'PYMODULE'),
+  ('jinja2.optimizer',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'PYMODULE'),
+  ('jinja2.idtracking',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'PYMODULE'),
+  ('jinja2.bccache',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\bccache.py',
+   'PYMODULE'),
+  ('jinja2.nodes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\jinja2\\nodes.py',
+   'PYMODULE'),
+  ('pdb',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pdb.py',
+   'PYMODULE'),
+  ('pydoc',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pydoc.py',
+   'PYMODULE'),
+  ('webbrowser',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\webbrowser.py',
+   'PYMODULE'),
+  ('http.server',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\server.py',
+   'PYMODULE'),
+  ('socketserver',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\socketserver.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('pydoc_data.topics',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pydoc_data\\topics.py',
+   'PYMODULE'),
+  ('pydoc_data',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\pydoc_data\\__init__.py',
+   'PYMODULE'),
+  ('tty',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tty.py',
+   'PYMODULE'),
+  ('__future__',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('shlex',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\shlex.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\glob.py',
+   'PYMODULE'),
+  ('code',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\code.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('bdb',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bdb.py',
+   'PYMODULE'),
+  ('cmd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\cmd.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.common',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing.actions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\actions.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.pyparsing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.version',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\version.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.utils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\utils.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.tags',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\tags.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.specifiers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\specifiers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.requirements',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\requirements.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.markers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\markers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._structures',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_structures.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._musllinux',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_musllinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging._manylinux',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\_manylinux.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging.__about__',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__about__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.packaging',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\packaging\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.recipes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\recipes.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools.more',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\more.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.more_itertools',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\more_itertools\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.text',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\text\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.functools',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\functools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco.context',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\context.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.jaraco',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\jaraco\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.simple',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\simple.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.readers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\readers.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources.abc',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\abc.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._legacy',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_legacy.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._itertools',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_itertools.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._compat',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_compat.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._common',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_common.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources._adapters',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\_adapters.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.importlib_resources',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\importlib_resources\\__init__.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor.appdirs',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\appdirs.py',
+   'PYMODULE'),
+  ('pkg_resources._vendor',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\_vendor\\__init__.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\sysconfig.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_bootsubprocess',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_bootsubprocess.py',
+   'PYMODULE'),
+  ('pkg_resources.extern',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pkg_resources\\extern\\__init__.py',
+   'PYMODULE'),
+  ('imp',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\imp.py',
+   'PYMODULE'),
+  ('plistlib',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\plistlib.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\platform.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_py_abc.py',
    'PYMODULE'),
   ('getpass',
    'C:\\Users\\Kaio Pablo '
@@ -369,41 +1167,17 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\netrc.py',
    'PYMODULE'),
-  ('shlex',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\shlex.py',
-   'PYMODULE'),
-  ('mimetypes',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\mimetypes.py',
-   'PYMODULE'),
   ('http.cookiejar',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\cookiejar.py',
    'PYMODULE'),
-  ('http',
+  ('stringprep',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\__init__.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\stringprep.py',
    'PYMODULE'),
-  ('logging',
+  ('subprocess',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\logging\\__init__.py',
-   'PYMODULE'),
-  ('ssl',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\ssl.py',
-   'PYMODULE'),
-  ('http.client',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\http\\client.py',
-   'PYMODULE'),
-  ('hashlib',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\hashlib.py',
-   'PYMODULE'),
-  ('bisect',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\bisect.py',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\subprocess.py',
    'PYMODULE'),
   ('random',
    'C:\\Users\\Kaio Pablo '
@@ -413,25 +1187,9 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\statistics.py',
    'PYMODULE'),
-  ('decimal',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\decimal.py',
-   'PYMODULE'),
-  ('_pydecimal',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\_pydecimal.py',
-   'PYMODULE'),
-  ('contextvars',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\contextvars.py',
-   'PYMODULE'),
   ('fractions',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\fractions.py',
-   'PYMODULE'),
-  ('numbers',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\numbers.py',
    'PYMODULE'),
   ('datetime',
    'C:\\Users\\Kaio Pablo '
@@ -869,6 +1627,822 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\openpyxl\\drawing\\image.py',
    'PYMODULE'),
+  ('PIL.Image',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\Image.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageFile',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageFile.py',
+   'PYMODULE'),
+  ('PIL.XbmImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\XbmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WebPImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\WebPImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TgaImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\TgaImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SpiderImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\SpiderImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageTk',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageTk.py',
+   'PYMODULE'),
+  ('PIL.SgiImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PdfImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PdfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.PdfParser',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PdfParser.py',
+   'PYMODULE'),
+  ('PIL.ImageSequence',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageSequence.py',
+   'PYMODULE'),
+  ('PIL.PcxImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IptcImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\IptcImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsStubImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FitsImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\FitsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\EpsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.DcxImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\DcxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.TiffImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\TiffImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageOps',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageOps.py',
+   'PYMODULE'),
+  ('PIL.ImageShow',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageShow.py',
+   'PYMODULE'),
+  ('PIL.ImageQt',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageQt.py',
+   'PYMODULE'),
+  ('PIL.ImageColor',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageColor.py',
+   'PYMODULE'),
+  ('colorsys',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\colorsys.py',
+   'PYMODULE'),
+  ('PIL.ImageFilter',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageFilter.py',
+   'PYMODULE'),
+  ('PIL.ImageCms',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageCms.py',
+   'PYMODULE'),
+  ('PIL.ImageWin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageWin.py',
+   'PYMODULE'),
+  ('PIL.PyAccess',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PyAccess.py',
+   'PYMODULE'),
+  ('numpy',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._dtype_ctypes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_dtype_ctypes.py',
+   'PYMODULE'),
+  ('numpy.version',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\version.py',
+   'PYMODULE'),
+  ('numpy._version',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_version.py',
+   'PYMODULE'),
+  ('numpy._pytesttester',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_pytesttester.py',
+   'PYMODULE'),
+  ('numpy.testing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\__init__.py',
+   'PYMODULE'),
+  ('numpy.testing._private.nosetester',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\_private\\nosetester.py',
+   'PYMODULE'),
+  ('doctest',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\doctest.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('numpy.testing._private.noseclasses',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\_private\\noseclasses.py',
+   'PYMODULE'),
+  ('numpy.testing._private.decorators',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\_private\\decorators.py',
+   'PYMODULE'),
+  ('numpy.testing._private.parameterized',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\_private\\parameterized.py',
+   'PYMODULE'),
+  ('numpy.testing._private.extbuild',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\_private\\extbuild.py',
+   'PYMODULE'),
+  ('numpy.testing._private.utils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\_private\\utils.py',
+   'PYMODULE'),
+  ('numpy.core.fromnumeric',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\fromnumeric.py',
+   'PYMODULE'),
+  ('numpy.core._methods',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_methods.py',
+   'PYMODULE'),
+  ('numpy.lib.stride_tricks',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\stride_tricks.py',
+   'PYMODULE'),
+  ('numpy.core.numeric',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\numeric.py',
+   'PYMODULE'),
+  ('numpy.core._asarray',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_asarray.py',
+   'PYMODULE'),
+  ('numpy.core.arrayprint',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\arrayprint.py',
+   'PYMODULE'),
+  ('numpy.core.shape_base',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.core._ufunc_config',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_ufunc_config.py',
+   'PYMODULE'),
+  ('numpy.core._exceptions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_exceptions.py',
+   'PYMODULE'),
+  ('numpy.core.umath',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\umath.py',
+   'PYMODULE'),
+  ('numpy.core.overrides',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\overrides.py',
+   'PYMODULE'),
+  ('numpy.compat._inspect',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\compat\\_inspect.py',
+   'PYMODULE'),
+  ('numpy.core.multiarray',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\multiarray.py',
+   'PYMODULE'),
+  ('numpy.core.numerictypes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\numerictypes.py',
+   'PYMODULE'),
+  ('numpy.core._dtype',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_dtype.py',
+   'PYMODULE'),
+  ('numpy.core._type_aliases',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_type_aliases.py',
+   'PYMODULE'),
+  ('numpy.core._string_helpers',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_string_helpers.py',
+   'PYMODULE'),
+  ('unittest.case',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\case.py',
+   'PYMODULE'),
+  ('unittest._log',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\_log.py',
+   'PYMODULE'),
+  ('unittest.util',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\util.py',
+   'PYMODULE'),
+  ('unittest.result',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\result.py',
+   'PYMODULE'),
+  ('numpy.testing._private',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\testing\\_private\\__init__.py',
+   'PYMODULE'),
+  ('unittest',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\__init__.py',
+   'PYMODULE'),
+  ('unittest.async_case',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\async_case.py',
+   'PYMODULE'),
+  ('unittest.signals',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\signals.py',
+   'PYMODULE'),
+  ('unittest.main',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\main.py',
+   'PYMODULE'),
+  ('unittest.runner',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\runner.py',
+   'PYMODULE'),
+  ('unittest.loader',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\loader.py',
+   'PYMODULE'),
+  ('unittest.suite',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\unittest\\suite.py',
+   'PYMODULE'),
+  ('numpy.matrixlib',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\matrixlib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.matrixlib.defmatrix',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\matrixlib\\defmatrix.py',
+   'PYMODULE'),
+  ('numpy.ma',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\ma\\__init__.py',
+   'PYMODULE'),
+  ('numpy.ma.extras',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\ma\\extras.py',
+   'PYMODULE'),
+  ('numpy.lib.index_tricks',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\index_tricks.py',
+   'PYMODULE'),
+  ('numpy.lib.function_base',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\function_base.py',
+   'PYMODULE'),
+  ('numpy.lib.histograms',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\histograms.py',
+   'PYMODULE'),
+  ('numpy.lib.twodim_base',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\twodim_base.py',
+   'PYMODULE'),
+  ('numpy.core.function_base',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\function_base.py',
+   'PYMODULE'),
+  ('numpy.ma.core',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\ma\\core.py',
+   'PYMODULE'),
+  ('numpy.ctypeslib',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\ctypeslib.py',
+   'PYMODULE'),
+  ('numpy.core._internal',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_internal.py',
+   'PYMODULE'),
+  ('numpy.random',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\__init__.py',
+   'PYMODULE'),
+  ('numpy.random._pickle',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_pickle.py',
+   'PYMODULE'),
+  ('numpy.polynomial',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\__init__.py',
+   'PYMODULE'),
+  ('numpy.polynomial._polybase',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\_polybase.py',
+   'PYMODULE'),
+  ('numpy.polynomial.laguerre',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\laguerre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite_e',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\hermite_e.py',
+   'PYMODULE'),
+  ('numpy.polynomial.hermite',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\hermite.py',
+   'PYMODULE'),
+  ('numpy.polynomial.legendre',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\legendre.py',
+   'PYMODULE'),
+  ('numpy.polynomial.chebyshev',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\chebyshev.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polynomial',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.polynomial.polyutils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\polynomial\\polyutils.py',
+   'PYMODULE'),
+  ('numpy.fft',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\fft\\__init__.py',
+   'PYMODULE'),
+  ('numpy.fft.helper',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\fft\\helper.py',
+   'PYMODULE'),
+  ('numpy.fft._pocketfft',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\fft\\_pocketfft.py',
+   'PYMODULE'),
+  ('numpy.linalg',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\linalg\\__init__.py',
+   'PYMODULE'),
+  ('numpy.linalg.linalg',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\linalg\\linalg.py',
+   'PYMODULE'),
+  ('numpy.lib',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\__init__.py',
+   'PYMODULE'),
+  ('numpy.lib._version',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\_version.py',
+   'PYMODULE'),
+  ('numpy.lib.arraypad',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\arraypad.py',
+   'PYMODULE'),
+  ('numpy.lib.arrayterator',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\arrayterator.py',
+   'PYMODULE'),
+  ('numpy.lib.npyio',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\npyio.py',
+   'PYMODULE'),
+  ('numpy.ma.mrecords',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\ma\\mrecords.py',
+   'PYMODULE'),
+  ('numpy.core.records',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\records.py',
+   'PYMODULE'),
+  ('numpy.lib._iotools',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\_iotools.py',
+   'PYMODULE'),
+  ('numpy.lib._datasource',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\_datasource.py',
+   'PYMODULE'),
+  ('numpy.lib.format',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\format.py',
+   'PYMODULE'),
+  ('numpy.lib.arraysetops',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\arraysetops.py',
+   'PYMODULE'),
+  ('numpy.lib.utils',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\utils.py',
+   'PYMODULE'),
+  ('numpy.lib.polynomial',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\polynomial.py',
+   'PYMODULE'),
+  ('numpy.lib.ufunclike',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\ufunclike.py',
+   'PYMODULE'),
+  ('numpy.lib.shape_base',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\shape_base.py',
+   'PYMODULE'),
+  ('numpy.lib.nanfunctions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\nanfunctions.py',
+   'PYMODULE'),
+  ('numpy.lib.type_check',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\type_check.py',
+   'PYMODULE'),
+  ('numpy.core.getlimits',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\getlimits.py',
+   'PYMODULE'),
+  ('numpy.core._machar',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_machar.py',
+   'PYMODULE'),
+  ('numpy.lib.scimath',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\scimath.py',
+   'PYMODULE'),
+  ('numpy.lib.mixins',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\lib\\mixins.py',
+   'PYMODULE'),
+  ('numpy.compat',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\compat\\__init__.py',
+   'PYMODULE'),
+  ('numpy.compat.py3k',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\compat\\py3k.py',
+   'PYMODULE'),
+  ('numpy.core',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\__init__.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs_scalars',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_add_newdocs_scalars.py',
+   'PYMODULE'),
+  ('numpy.core._add_newdocs',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_add_newdocs.py',
+   'PYMODULE'),
+  ('numpy.core.einsumfunc',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\einsumfunc.py',
+   'PYMODULE'),
+  ('numpy.core.memmap',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\memmap.py',
+   'PYMODULE'),
+  ('numpy.core.defchararray',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\defchararray.py',
+   'PYMODULE'),
+  ('numpy._distributor_init',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_distributor_init.py',
+   'PYMODULE'),
+  ('numpy.__config__',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\__config__.py',
+   'PYMODULE'),
+  ('numpy.array_api',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\__init__.py',
+   'PYMODULE'),
+  ('numpy.array_api._utility_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_utility_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._array_object',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_array_object.py',
+   'PYMODULE'),
+  ('numpy.typing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._add_docstring',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_add_docstring.py',
+   'PYMODULE'),
+  ('numpy._typing._generic_alias',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_generic_alias.py',
+   'PYMODULE'),
+  ('numpy._typing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\__init__.py',
+   'PYMODULE'),
+  ('numpy._typing._array_like',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_array_like.py',
+   'PYMODULE'),
+  ('numpy._typing._dtype_like',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py',
+   'PYMODULE'),
+  ('numpy._typing._shape',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_shape.py',
+   'PYMODULE'),
+  ('numpy._typing._scalars',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_scalars.py',
+   'PYMODULE'),
+  ('numpy._typing._char_codes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py',
+   'PYMODULE'),
+  ('numpy._typing._nbit',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_nbit.py',
+   'PYMODULE'),
+  ('numpy._typing._nested_sequence',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py',
+   'PYMODULE'),
+  ('numpy.array_api._typing',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_typing.py',
+   'PYMODULE'),
+  ('numpy.array_api._statistical_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_statistical_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._sorting_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_sorting_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._set_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_set_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._searching_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_searching_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._manipulation_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_manipulation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api.linalg',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\linalg.py',
+   'PYMODULE'),
+  ('numpy.array_api._elementwise_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_elementwise_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._dtypes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_dtypes.py',
+   'PYMODULE'),
+  ('numpy.array_api._data_type_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_data_type_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._creation_functions',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_creation_functions.py',
+   'PYMODULE'),
+  ('numpy.array_api._constants',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\array_api\\_constants.py',
+   'PYMODULE'),
+  ('numpy._globals',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_globals.py',
+   'PYMODULE'),
+  ('PIL.ImagePalette',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImagePalette.py',
+   'PYMODULE'),
+  ('PIL.PaletteFile',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpPaletteFile',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\GimpPaletteFile.py',
+   'PYMODULE'),
+  ('PIL.GimpGradientFile',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\GimpGradientFile.py',
+   'PYMODULE'),
+  ('PIL.PngImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PngImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImageChops',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageChops.py',
+   'PYMODULE'),
+  ('PIL.PpmImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\PpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\JpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.JpegPresets',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\JpegPresets.py',
+   'PYMODULE'),
+  ('PIL.GifImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\GifImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BmpImagePlugin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\BmpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL._util',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_util.py',
+   'PYMODULE'),
+  ('PIL._deprecate',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_deprecate.py',
+   'PYMODULE'),
+  ('PIL._binary',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_binary.py',
+   'PYMODULE'),
+  ('PIL.TiffTags',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\TiffTags.py',
+   'PYMODULE'),
+  ('PIL.ImageMode',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ImageMode.py',
+   'PYMODULE'),
+  ('PIL.ExifTags',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\ExifTags.py',
+   'PYMODULE'),
+  ('PIL',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\__init__.py',
+   'PYMODULE'),
+  ('PIL._version',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_version.py',
+   'PYMODULE'),
   ('openpyxl.xml.functions',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\openpyxl\\xml\\functions.py',
@@ -876,10 +2450,6 @@
   ('et_xmlfile.xmlfile',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\et_xmlfile\\xmlfile.py',
-   'PYMODULE'),
-  ('__future__',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\__future__.py',
    'PYMODULE'),
   ('et_xmlfile',
    'C:\\Users\\Kaio Pablo '
@@ -897,42 +2467,6 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementInclude.py',
    'PYMODULE'),
-  ('xml.parsers.expat',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\parsers\\expat.py',
-   'PYMODULE'),
-  ('xml.parsers',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\parsers\\__init__.py',
-   'PYMODULE'),
-  ('xml',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\__init__.py',
-   'PYMODULE'),
-  ('xml.sax.expatreader',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\expatreader.py',
-   'PYMODULE'),
-  ('xml.sax.saxutils',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\saxutils.py',
-   'PYMODULE'),
-  ('xml.sax',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\__init__.py',
-   'PYMODULE'),
-  ('xml.sax.handler',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\handler.py',
-   'PYMODULE'),
-  ('xml.sax._exceptions',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\_exceptions.py',
-   'PYMODULE'),
-  ('xml.sax.xmlreader',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\sax\\xmlreader.py',
-   'PYMODULE'),
   ('xml.etree.ElementPath',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\ElementPath.py',
@@ -940,6 +2474,106 @@
   ('xml.etree',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\xml\\etree\\__init__.py',
+   'PYMODULE'),
+  ('lxml',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\__init__.py',
+   'PYMODULE'),
+  ('lxml.usedoctest',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\usedoctest.py',
+   'PYMODULE'),
+  ('lxml.pyclasslookup',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\pyclasslookup.py',
+   'PYMODULE'),
+  ('lxml.isoschematron',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libxslt',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\includes\\libxslt\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libxml',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\includes\\libxml\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.libexslt',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\includes\\libexslt\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes.extlibs',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\includes\\extlibs\\__init__.py',
+   'PYMODULE'),
+  ('lxml.includes',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\includes\\__init__.py',
+   'PYMODULE'),
+  ('lxml.html.usedoctest',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\usedoctest.py',
+   'PYMODULE'),
+  ('lxml.html.soupparser',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\soupparser.py',
+   'PYMODULE'),
+  ('lxml.html.html5parser',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\html5parser.py',
+   'PYMODULE'),
+  ('lxml.html.formfill',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\formfill.py',
+   'PYMODULE'),
+  ('lxml.html.defs',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\defs.py',
+   'PYMODULE'),
+  ('lxml.html.builder',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\builder.py',
+   'PYMODULE'),
+  ('lxml.html._setmixin',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\_setmixin.py',
+   'PYMODULE'),
+  ('lxml.html._html5builder',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\_html5builder.py',
+   'PYMODULE'),
+  ('lxml.html._diffcommand',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\_diffcommand.py',
+   'PYMODULE'),
+  ('optparse',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\optparse.py',
+   'PYMODULE'),
+  ('lxml.html.ElementSoup',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\ElementSoup.py',
+   'PYMODULE'),
+  ('lxml.html',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\__init__.py',
+   'PYMODULE'),
+  ('lxml.doctestcompare',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\doctestcompare.py',
+   'PYMODULE'),
+  ('cgi',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\cgi.py',
+   'PYMODULE'),
+  ('lxml.cssselect',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\cssselect.py',
+   'PYMODULE'),
+  ('lxml.ElementInclude',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\ElementInclude.py',
    'PYMODULE'),
   ('openpyxl.drawing.spreadsheet_drawing',
    'C:\\Users\\Kaio Pablo '
@@ -1213,6 +2847,10 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
    'BINARY'),
+  ('libopenblas64__v0.3.21-gcc_10_3_0.dll',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\.libs\\libopenblas64__v0.3.21-gcc_10_3_0.dll',
+   'BINARY'),
   ('_lzma.pyd',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
@@ -1229,41 +2867,205 @@
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
    'EXTENSION'),
-  ('unicodedata.pyd',
+  ('_multiprocessing.pyd',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
-   'EXTENSION'),
-  ('_ssl.pyd',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
-   'EXTENSION'),
-  ('_hashlib.pyd',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
-   'EXTENSION'),
-  ('_decimal.pyd',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
-   'EXTENSION'),
-  ('_elementtree.pyd',
-   'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_multiprocessing.pyd',
    'EXTENSION'),
   ('pyexpat.pyd',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
    'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\markupsafe\\_speedups.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_webp.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_imagingtk.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_imagingcms.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_multiarray_tests.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\core\\_multiarray_umath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\lapack_lite.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\linalg\\lapack_lite.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\mtrand.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_sfc64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_philox.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_pcg64.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_mt19937.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\bit_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_generator.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_bounded_integers.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\random\\_common.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\random\\_common.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\fft\\_pocketfft_internal.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\linalg\\_umath_linalg.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PIL\\_imaging.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('lxml\\etree.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\etree.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\_elementpath.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\_elementpath.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\sax.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\sax.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\objectify.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\objectify.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\diff.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\diff.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\html\\clean.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\html\\clean.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('lxml\\builder.cp311-win_amd64.pyd',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\builder.cp311-win_amd64.pyd',
+   'EXTENSION'),
+  ('libssl-1_1.dll',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\Kaio Pablo '
    'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-1_1.dll',
    'BINARY'),
-  ('libssl-1_1.dll',
+  ('libffi-8.dll',
    'C:\\Users\\Kaio Pablo '
-   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-1_1.dll',
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libffi-8.dll',
    'BINARY')],
  [],
  [],
  [('base_library.zip',
-   'D:\\Projetos\\MGC\\build\\main\\base_library.zip',
+   'D:\\Programação\\MGC\\build\\main\\base_library.zip',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_abstract_expand.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_skeleton_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\rng\\iso-schematron.rng',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_schematron_message.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_svrl_for_xslt1.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\XSD2Schtrn.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\readme.txt',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\iso-schematron-xslt1\\iso_dsdl_include.xsl',
+   'DATA'),
+  ('lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
+   'C:\\Users\\Kaio Pablo '
+   'Martins\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\lxml\\isoschematron\\resources\\xsl\\RNG2Schtrn.xsl',
    'DATA')],
  [])

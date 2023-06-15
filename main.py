@@ -1,6 +1,7 @@
 import openpyxl as pyxl
 import datetime
 from random import randint
+import subprocess
 
 '''
 1. Criar função de contagem regressiva de dias;
@@ -8,6 +9,28 @@ from random import randint
 3. Criar função para cálculo da qtd de insulina;
 4. Inserir as linhas na planilha.
 '''
+
+def main():
+    i = 6
+    planilha = pyxl.load_workbook('Glicemia.xlsx')
+    primeira_tabela = planilha['Planilha1']
+    segunda_tabela = planilha['Planilha2']
+
+    for x, dia in enumerate(calcula_dias()):
+        if x <= 14:
+            print(f"==={dia}===")
+            preenche_valor(primeira_tabela, dia, i)
+            i += 2
+            continue
+
+        i = 6 if x == 15 else i
+        if x >= 15:
+            print(f"==={dia}===")
+            preenche_valor(segunda_tabela, dia, i)
+            i += 2
+
+    planilha.save('PLANILHA_PREENCHIDA.xlsx')
+    subprocess.Popen(['start', 'PLANILHA_PREENCHIDA.xlsx'], shell=True)
 
 def calcula_dias():
     data_atual = datetime.datetime.now()
@@ -40,23 +63,6 @@ def calcula_glicemia(x):
         return "12 UI"
     if medicao > 200:
         return "14 UI"
-
-def main():
-    i = 6
-    planilha = pyxl.load_workbook('Glicemia.xlsx')['Planilha1']
-    for x, dia in enumerate(calcula_dias()):
-        if x <= 14:
-            print(f"==={dia}===")
-            preenche_valor(planilha, dia, i)
-            i += 2
-            planilha.parent.save(f'Primeiros_15dias.xlsx')
-            continue
-        i = 6 if x == 15 else i
-        if x >= 15:
-            print(f"==={dia}===")
-            preenche_valor(planilha, dia, i)
-            i += 2
-            planilha.parent.save(f'Últimos_15dias.xlsx')
 
 def preenche_valor(planilha, dia, i):
     glicemia_jejum = ''
